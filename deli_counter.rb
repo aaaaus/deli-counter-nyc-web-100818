@@ -5,6 +5,7 @@ def line(array)
   if array.length < 1
     "The line is currently empty."
   else
+  end
 end
 
 def take_a_number(array, string)
@@ -16,3 +17,4 @@ def now_serving(array)
   else
     puts array.pop
   end
+end
