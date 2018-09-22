@@ -5,6 +5,7 @@ def line(array)
   if array.length < 1
     puts "The line is currently empty."
   else
+    puts "The line is currently #{array}."
   end
 end
 
@@ -13,8 +14,9 @@ end
 
 def now_serving(array)
   if array.length < 1
-    puts "There is nobody waiting in line!"
+    puts "There is nobody waiting to be served!"
   else
-    puts array.pop
+    name = array.pop
+    puts "Currently serving #{name}."
   end
 end
